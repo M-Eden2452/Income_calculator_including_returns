@@ -1,1 +1,2 @@
-# Income_calculator_including_returns
+# Income calculator including returns
+# Калькулятор дохода с учетом возвратов

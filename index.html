@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+  <div class="video-bg">
+    <video width="320" height="240" autoplay loop muted>
+      <source src="/img/video-bg.mp4" type="video/mp4"> 
+    </video>
+  </div>
+
+    <div class="wrapper">
+      <div class="app">
+          <form id="deliveryForm">
+              <label class="label-quantity" for="quantity">Количество оптравленных</label>
+              <input type="tel" id="quantity" name="quantity" placeholder="Количество" required>
+              
+              <!-- <label for="option">Позиция:</label>
+              <select id="option" name="option">
+                <option value="1073">1073</option>
+                <option value="1250">1250</option>
+              </select> -->
+              
+              <button class="btn" type="button" onclick="calculateDailyIncome()">Рассчитать</button>
+          </form>
+          <div class="result-wrapper">
+            <p class="result" id="result"></p>
+            <p class="result" id="result_procurement"></p>
+            <p class="result" id="quantity_refunds"></p>
+            <p class="result" id="resultReturnDeliveryCosts"></p>
+          </div>
+            
+             
+      </div>
+  </div>
+  
+
+   
+      <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+      
+    <script  src="/index.js"></script>
+</body>
+</html>
